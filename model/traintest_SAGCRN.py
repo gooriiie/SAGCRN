@@ -212,8 +212,8 @@ parser.add_argument('--rnn_units', type=int, default=64, help='number of rnn uni
 parser.add_argument('--mem_num', type=int, default=30, help='number of meta-nodes/prototypes')
 parser.add_argument('--mem_dim', type=int, default=64, help='dimension of meta-nodes/prototypes')
 parser.add_argument("--loss", type=str, default='mask_mae_loss', help="mask_mae_loss")
-parser.add_argument('--lamb', type=float, default=0.01, help='lamb value for separate loss')
-parser.add_argument('--lamb1', type=float, default=0.01, help='lamb1 value for compact loss')
+parser.add_argument('--lamb', type=float, default=0.01, help='lamb value for separate loss')    # 0.01
+parser.add_argument('--lamb1', type=float, default=0.01, help='lamb1 value for compact loss')   # 0.01
 parser.add_argument("--epochs", type=int, default=200, help="number of epochs of training")
 parser.add_argument("--patience", type=int, default=10, help="patience used for early stop")
 parser.add_argument("--batch_size", type=int, default=64, help="size of the batches")
@@ -240,6 +240,7 @@ elif args.dataset == 'PEMSD8':
     data_path = f'../{args.dataset}/pemsd8-restored.h5'
     args.num_nodes = 170
     args.lr = 0.005
+    args.mem_num = 20
 else:
     pass # including more datasets in the future    
 
