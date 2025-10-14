@@ -1,7 +1,7 @@
 # 🚦 SAGCRN: Sequence-aware Adaptive Graph Convolutional Networks for Traffic Forecasting  
 
 <p align="center">
-  <img src="framework_overview.png" alt="Framework Overview" width="800">
+  <img src="figure/framework_overview.png" alt="Framework Overview" width="800">
   <br>
   <em>Sequence-aware Adaptive Graph Convolutional Network (SAGCRN)</em>
 </p>
