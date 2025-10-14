@@ -8,7 +8,7 @@
 
 ## 📌 Introduction  
 We propose **SAGCRN**, a **sequence-aware adaptive graph convolutional network** for traffic forecasting.  
-Unlike conventional static graph-based models, SAGCRN dynamically learns **sequence-dependent spatial–temporal relationships** among traffic sensors.  
+Unlike conventional static graph-based models, SAGCRN dynamically learns **sequence-aware dependencies** among traffic sensors.  
 This adaptive mechanism allows the model to better capture evolving traffic dynamics across time and location.  
 
 ## ⚙️ Installation  
@@ -16,15 +16,12 @@ SAGCRN is implemented with **PyTorch** and standard scientific Python libraries.
 
 ```bash
 # Clone repository
-git clone https://github.com/yourname/SAGCRN.git
+git clone https://github.com/gooriiie/SAGCRN.git
 cd SAGCRN
 
 # Create environment
 conda create -n sagcrn python=3.8
 conda activate sagcrn
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 ### Required packages
