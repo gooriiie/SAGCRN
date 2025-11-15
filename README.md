@@ -11,6 +11,11 @@ We propose **SAGCRN**, a **sequence-aware adaptive graph convolutional network**
 Unlike conventional static graph-based models, SAGCRN dynamically learns **sequence-aware dependencies** among traffic sensors.  
 This adaptive mechanism allows the model to better capture evolving traffic dynamics across time and location.  
 
+## 📰 News
+- **[2025/09/21]** Our paper MR-Prner has been accepted to **_Knowledge-Based Systems 2025_**!🎉  
+
+---
+
 ## ⚙️ Installation  
 SAGCRN is implemented with **PyTorch** and standard scientific Python libraries.
 
